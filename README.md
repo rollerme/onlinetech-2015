@@ -59,7 +59,7 @@ git push origin NAME-OF-BRANCH
 3. On your computer, use `git clone YOUR-CLONE-URL` to clone your own copy of the repo. On Github, you can find your clone URL by going to the page of your fork and look for 'clone URL'. Here's an example:
 
 ```
-git clone https://github.com/isabelancheta/webapp2-2015.git
+git clone https://github.com/yohasakura/onlinetech-2015.git
 ```
 
 Here's a screenshot in case you can't find the clone URL:
@@ -77,13 +77,13 @@ git config user.name "Your-Firstname Your-Lastname"
 
 ###New Branch for Every Activity
 
-For every activity you need to create a new branch in the repository. For example: 
+For every activity you need to create a new branch in the repository. The format for the branch name is: `firstnamelastname-activitynumber`. Here's an example:
 
 ```
-git checkout -b activity1
+git checkout -b yohasakura-01
 ```
 
-In the root of your local repository, open the `Students` folder. Inside the folder, create a new folder with the following format: `LASTNAME, Firstname, MI`. (e.g `TAMAD, Juan P.`). Open that folder and create another one and name it after the name that you gave to the branch (e.g `activity1`). This folder is where you put the files that you used in the activity.
+In the root of your local repository, open the `Students` folder. Inside the folder, create a new folder with the following format: `LASTNAME, Firstname, MI`. (e.g `TAMAD, Juan P.`). Open that folder and create another one and name it after the activity number (e.g `01`). This folder is where you put the files for that specific activity.
 
 ###Submitting your Work
 
@@ -92,7 +92,7 @@ As everything in Github is public, you need to submit your work on or before the
 To submit your work, you have to push it first to your clone.
 
 ```
-git push origin activity1
+git push origin yohasakura-01
 ```
 
 Note that `activity1` should be the same as the name of the branch that you created.
